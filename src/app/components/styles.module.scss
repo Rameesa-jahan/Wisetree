@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.cardContainer {
+    padding: 30px;
+
+    .card {
+        width: 100%;
+        padding: 165px 20px;
+        border-radius: 80px;
+        background: url(/Subtract.png) center no-repeat;
+        background-size: cover;
+        position: relative;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        box-sizing: border-box;
+        max-height: 801px;
+        max-width: 1500px;
+
+        .logoImg {
+            max-width: 65.77;
+            width: 100%;
+            height: 61;
+        }
+
+        .heading {
+            font-family: Poppins;
+            font-size: 120px;
+            font-weight: 700;
+            line-height: 180px;
+        }
+
+        .heading2 {
+            font-family: Poppins;
+            font-size: 120px;
+            font-weight: 700;
+            line-height: 180px;
+        }
+
+        .CircleButton {
+            background: linear-gradient(156.12deg, #052842 7.32%, #2A5EA5 48.11%, #7BB885 98.79%);
+            box-sizing: border-box;
+            position: absolute;
+            width: 225px;
+            height: 225px;
+            left: 709px;
+            top: 381px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btnText {
+                position: absolute;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: uppercase;
+                color: #F7FFEF;
+                text-align: center;
+            }
+        }
+
+        .bgImages {
+            display: flex;
+            gap: 178px;
+            justify-content: center;
+
+            .bgImage {
+                width: 459px;
+                height: 269px;
+            }
+
+            .bgImageRight {
+                margin-bottom: 200px;
+                width: 459px;
+                height: 269px;
+            }
+        }
+
+        .para {
+            position: absolute;
+            width: 297px;
+            height: 108px;
+            left: 1003px;
+            top: 522px;
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-transform: capitalize;
+            color: rgba(247, 255, 239, 0.85);
+            text-align: left;
+        }
+
+        .contactUs {
+            position: absolute;
+            padding: 8px 30px;
+            height: 65px;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+            background-color: white;
+            border-radius: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            overflow: hidden;
+
+            .logo {
+                width: 43px;
+                height: 40px;
+            }
+
+            .contactContent {
+                display: none;
+                gap: 10px;
+
+                .contactSvg {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #84C08A;
+                    color: white;
+                    width: 51px;
+                    height: 51px;
+                    border-radius: 50%;
+                    text-align: center;
+                    transition: all 0.3s ease;
+                }
+
+                .contactButton {
+                    background-color: #187EB4;
+                    border: none;
+                    color: #ffffff;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    cursor: pointer;
+                    padding: 15px 22px;
+                    border-radius: 50px;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+
+        .contactUs:hover {
+            width: 205px;
+            background-color: #f0f0f0;
+            padding: 16px 8px;
+
+            .logo {
+                display: none;
+            }
+        }
+
+
+        .contactUs:hover .contactContent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+
+.sectionTwocontainer {
+    padding: 30px;
+    background-color: white;
+    border-radius: 80px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+
+    .heading {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #2B2A29;
+    }
+
+    .hr {
+        margin: 30px 0px;
+        color: #00213280;
+    }
+
+    .mainHeading {
+        max-width: 970px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 95px;
+        letter-spacing: -0.01em;
+        text-transform: capitalize;
+        color: #104386;
+
+        span {
+            color: #104386b9;
+        }
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 57px;
+        width: 100%;
+        box-sizing: border-box;
+
+        .learmorebtn {
+            width: 248px;
+            height: 70px;
+            margin-top: 150px;
+        }
+    }
+}
+
+.sectionThreecontainer {
+    padding: 30px;
+    background: url(/bg-three.png) center no-repeat;
+    background-size: cover;
+    margin-top: -73px;
+    color: white;
+    border-radius: 0px 0px 80px 80px;
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-bottom: 100px;
+
+        .item1 {
+            width: 336px;
+            height: 229px;
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: rgba(252, 255, 249, 0.85);
+        }
+
+        .item2 {
+            width: 202px;
+            height: 234px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 80px;
+            line-height: 89px;
+            letter-spacing: -0.01em;
+            text-transform: capitalize;
+            color: rgba(252, 255, 249, 0.95);
+            margin-left: 20px;
+        }
+
+        .learnmoreImg {
+            width: 264px;
+            height: 66px;
+            margin-top: 162px;
+        }
+    }
+}
+
+.SectionFourContainer {
+    padding: 30px;
+    text-align: center;
+
+    .header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 95px;
+        max-width: 838px;
+        letter-spacing: -0.01em;
+        color: #144486;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container {
+        display: flex;
+        gap: 81px;
+        padding: 0px 0px 0px 60px;
+    }
+
+    .card1 {
+        width: 700.38px;
+        height: 431px;
+        background-color: #ffcc00;
+        background: url(/bg-card.png) center no-repeat;
+        background-size: cover;
+        border-radius: 80px;
+        position: relative;
+        z-index: 1;
+        margin-top: -30px;
+
+        .cardContent {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                color: white;
+
+                h1 {
+                    margin-top: 65px;
+                    width: 354px;
+                    height: 60px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 86.2px;
+                    line-height: 205px;
+                    text-transform: uppercase;
+                    color: rgba(252, 255, 249, 0.9);
+                }
+
+                p {
+                    width: 354px;
+                    height: 32px;
+                    font-family: 'Libre Franklin';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 43.1px;
+                    line-height: 205px;
+                    text-align: end;
+                    letter-spacing: -0.01em;
+                    color: rgba(252, 255, 249, 0.85);
+                    margin-left: 70px;
+
+                }
+            }
+
+        }
+
+
+        .number {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 258.6px;
+            line-height: 205px;
+            text-align: start;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+            color: rgb(252, 255, 249);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 44px;
+        }
+
+        .letter {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 258.6px;
+            line-height: 205px;
+            text-align: start;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+            color: rgba(252, 255, 249, 0.308);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+        }
+
+    }
+
+    .card2 {
+        width: 370px;
+        height: 228px;
+        background: url(/card2.png) center no-repeat;
+        background-size: cover;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(70px);
+        border-radius: 20px;
+        margin-top: 135px;
+        color: white;
+    }
+
+    .cardContainer2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card3 {
+        background: url(/card3.png) center no-repeat;
+        background-size: cover;
+        width: 194px;
+        height: 119px;
+        margin-top: -46px;
+        border-radius: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .card4 {
+        background: url(/card4.png) center no-repeat;
+        background-size: cover;
+        width: 162px;
+        height: 100px;
+        margin-left: 425;
+        border-radius: 20px;
+        color: white;
+    }
+
+}
+
+.serviceContainer {
+    .dotGrid {
+        position: absolute;
+        width: 100%;
+        height: 209px;
+        display: grid;
+        grid-template-rows: repeat(13, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dotRow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dot {
+        width: 4.46px;
+        height: 4.46px;
+        background-color: #14448633;
+        border-radius: 100%;
+        margin: 2px;
+        transition: opacity 0.3s ease;
+    }
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 55px;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 50px 22px;
+        color: #2B2A29;
+    }
+
+    .mainHeading {
+        max-width: 1214px;
+        width: 100vw;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 95px;
+        letter-spacing: -0.01em;
+        text-transform: capitalize;
+        color: #104386;
+        text-align: left;
+        margin-top: 30px;
+
+        span {
+            color: #104386b9;
+        }
+    }
+
+    .cardDiv {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        gap: 27px;
+
+        .card1 {
+            background: url(/card-img1.png) center no-repeat;
+            background-size: cover;
+            max-width: 325px;
+            width: 100%;
+            height: 295px;
+            border-radius: 35px;
+            color: white;
+        }
+
+        .card2 {
+            background: url(/card-img2.png) center no-repeat;
+            background-size: cover;
+            max-width: 325px;
+            width: 100%;
+            height: 295px;
+            border-radius: 35px;
+            color: white;
+        }
+
+        .card3 {
+            background: url(/card-img3.png) center no-repeat;
+            background-size: cover;
+            max-width: 325px;
+            width: 100%;
+            height: 295px;
+            border-radius: 35px;
+            color: white;
+        }
+
+        .card4 {
+            background: url(/card-img4.png) center no-repeat;
+            background-size: cover;
+            max-width: 325px;
+            width: 100%;
+            height: 295px;
+            border-radius: 35px;
+            color: white;
+        }
+    }
+
+}
+
+.flowContainer {
+    border-radius: 85px;
+    padding-bottom: 52px;
+    z-index: 1000;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+
+    h4 {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #2B2A29;
+        padding: 30px;
+    }
+
+    .hr {
+        color: #00213280;
+    }
+
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        gap: 42.8px;
+        height: 645px;
+        padding: 30px 0px;
+
+        .item1 {
+            background: url(/item1.png) center no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .item2 {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin-top: 104px;
+
+            h2 {
+                left: calc(50% - 448px/2 - 1px);
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 40px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                color: rgba(20, 68, 134, 0.9);
+            }
+
+            .text {
+                display: flex;
+                gap: 30px;
+                text-align: center;
+                justify-content: center;
+
+                h5 {
+                    font-family: 'Libre Franklin';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: rgba(43, 42, 41, 0.75);
+                }
+            }
+
+            button {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 30px;
+                gap: 10px;
+                width: 156px;
+                height: 53px;
+                border: 1px solid rgba(0, 33, 50, 0.5);
+                border-radius: 45px;
+                margin-left: 145px;
+            }
+        }
+
+        .item3 {
+            background: url(/item2.png) center no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.footerContainer {
+    background: url(/bg-three.png) center no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 0;
+    padding: 76px 0px 0px 0px;
+    margin-top: -77px;
+
+    .dotGrid {
+        position: absolute;
+        width: 100%;
+        height: 209px;
+        display: grid;
+        grid-template-rows: repeat(13, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dotRow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dot {
+        width: 4.46px;
+        height: 4.46px;
+        background-color: #ffffff33;
+        border-radius: 100%;
+        margin: 2px;
+        transition: opacity 0.3s ease;
+    }
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 55px;
+        text-transform: capitalize;
+        color: #FCFFF9;
+        padding: 50px 22px;
+        max-width: 812px;
+    }
+
+    .btnconnect {
+        width: 237px;
+        height: 66px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+
+    .logoContainer {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+
+        .logoBg {
+            max-width: 364px;
+            width: 100%;
+            height: 344px;
+        }
+    }
+
+    .logoName {
+        max-width: 1018px;
+        width: 100%;
+        align-items: center;
+        margin-top: -217px;
+    }
+
+    .container {
+        display: grid;
+        padding: 30px;
+        grid-template-columns: 216px 521px 324px;
+        grid-gap: 200px;
+        width: 100%;
+
+        .part1 {
+            display: flex;
+            gap: 24px;
+        }
+
+        .part2 {
+            display: flex;
+            gap: 30px;
+
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FCFFF9;
+            }
+        }
+    }
+    .line{
+
+    .hr {
+        color: #ffffff80;
+        padding: 30px;
+    }
+    }
+
+}
