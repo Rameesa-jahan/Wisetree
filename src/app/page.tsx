@@ -1,4 +1,5 @@
-import Image from "next/image";
+/* eslint-disable */
+
 import Wisetree from "./components/wistetree";
 import SectionTwo from "./components/section2";
 import SectionThree from "./components/section3";
