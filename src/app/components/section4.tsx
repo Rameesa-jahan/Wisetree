@@ -7,8 +7,8 @@ const SectionFour = () => {
     return (
         <div className={styles.SectionFourContainer}>
             <div>
-                <h1 className={styles.header}>If you’re looking at us,
-                    You’re looking to</h1>
+                <h1 className={styles.header}>If you`&apos;`re looking at us,
+                    You`&apos;`re looking to</h1>
             </div>
             <div className={styles.container}>
                 <div className={styles.card1}>
@@ -21,7 +21,7 @@ const SectionFour = () => {
                         </div>
                         <div className={styles.text}>
                             <h1>GAIN</h1>
-                            <p>Gain Buyer’s Trust</p>
+                            <p>Gain Buyer`&apos;`s Trust</p>
                         </div>
                     </div>
                 </div>
