@@ -26,7 +26,7 @@ const Wisetree = () => {
                     </h1>
                 </div>
                 <div className={styles.CircleButton}>
-                    <h1 className={styles.btnText}> LET`&apos;`S TALK</h1>
+                    <h1 className={styles.btnText}> LETS TALK</h1>
                 </div>
                 <div className={styles.bgImages}>
                     <img className={styles.bgImage} src={'/Group 8.png'} alt='' />
